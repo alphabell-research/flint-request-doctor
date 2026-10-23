@@ -1,0 +1,8 @@
+{
+  "name": "flint-request-doctor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"test": "node --test"},
+  "license": "Apache-2.0"
+}
