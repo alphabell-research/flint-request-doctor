@@ -5,6 +5,7 @@ colorFrom: green
 colorTo: blue
 sdk: static
 app_file: index.html
+thumbnail: https://huggingface.co/spaces/alphabell/Flint-Request-Doctor/resolve/main/thumbnail.png
 license: apache-2.0
 short_description: See which Flint request settings rec rejects or ignores.
 models:
@@ -21,6 +22,10 @@ tags:
 # Flint Request Doctor by alphaBell
 
 Paste an OpenAI-compatible request body and see which settings the public Rec MLX server accepts, rejects or silently ignores. The review runs locally in your browser. It sends no inference request and stores no request history.
+
+**[Try Flint Request Doctor](https://huggingface.co/spaces/alphabell/Flint-Request-Doctor)**
+
+![Flint Request Doctor reviewing a request locally and identifying four ignored settings, including reasoning effort and thinking token budget.](preview.png)
 
 Try the built-in examples for ignored reasoning controls, `15000.0` versus `15000`, grammar/stop conflicts, competing token caps and unsupported forced tool calls. Every diagnostic links to pinned source.
 
